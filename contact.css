@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color: #ff523b;
+  --radial: radial-gradient(#fff, #ffd6d6);
+  --para-color: #8a8a8a;
+  --hover: #563434;
+}
+.account{
+  height: 100vh;
+  background:var(--radial);
+}
+.account .accounts-making{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.making-image{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.making-image img{
+  width: 90%;
+}
+.form{
+  width: 40vw;
+}
+.form-control{
+  background-color: #fff;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 1.5rem;
+}
+.login span{
+  width: 49%;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+  .login span:last-child{
+    border-bottom: 3px solid var(--color);
+  }
+.form-page{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.form-page input{
+  margin: 10px 0;
+}
+.btn-classic{
+  padding: 0;
+}
