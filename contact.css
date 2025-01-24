@@ -49,15 +49,24 @@ body{
   font-weight: bold;
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
-  .login span:last-child{
+
+.login .after{
     border-bottom: 3px solid var(--color);
   }
-.form-page{
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
+  .form-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    transition: opacity 1s, visibility 1s, height 1s;
+  }
+  .display {
+    opacity : 0;
+    visibility: hidden;
+    height: 0;
+  }
+
 .form-page input{
   margin: 10px 0;
 }

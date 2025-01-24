@@ -54,10 +54,15 @@
         <div class="form">
           <div class="form-control">
             <p class="login">
-              <span>Login</span>
-              <span class="after">Register </span>
+              <span id="loginBtn">Login</span>
+              <span class="after" id="registerBtn">Register </span>
             </p>
-            <div class="form-page">
+            <div class="form-page login-page display" id="logInPage">
+              <input type="email" placeholder="Email" />
+              <input type="password" placeholder="Password" />
+              <button class="btn-classic">Login</button>
+            </div>
+            <div class="form-page regPage " id="registerPage">
               <input type="text" placeholder="Username" />
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
@@ -117,5 +122,6 @@
         </div>
       </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
