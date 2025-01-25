@@ -5,7 +5,7 @@ A modern, responsive e-commerce website built with HTML, CSS, and JavaScript. Th
 ## Features
 
 - **Responsive Navigation**: Clean and intuitive navigation menu with links to Home, About, Products, and Contact pages
-- **Clean UI with fade transitions
+- Clean UI with fade transitions
 
 ## Pages
 
